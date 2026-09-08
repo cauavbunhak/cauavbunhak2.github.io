@@ -1,0 +1,88 @@
+/*Toda a parte visual do site, contendo cor, fonte e bordas */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-primary {
+    background-color: #4472C4 !important;
+}
+
+.text-primary {
+    color: #4472C4 !important;
+}
+
+.categoria-titulo {
+    color: #4472C4;
+    border-bottom: 2px solid #cfd5ea;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.img-banner-custom {
+    max-height: 220px;
+    object-fit: contain;
+}
+
+.img-produto-vitrine {
+    height: 160px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.sr-only-focusable:focus {
+    position: absolute;
+    z-index: 1050;
+    padding: 15px;
+    background-color: #ffc107;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.img-rede-social {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%; 
+    transition: transform 0.2s ease;
+}
+
+.fundo-verde-escuro {
+    background-color: #1e4620 !important;
+}
+
+.btn.fundo-verde-escuro:hover {
+    background-color: #2b5c2e !important;
+    color: #fff !important;
+}
+
+.card {
+    border-radius: 0px !important;
+    border: 2px solid #ced4da !important;
+    box-shadow: none !important;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card-header {
+    border-radius: 0px !important; 
+}
+
+.form-control, .btn {
+    border-radius: 0px !important;
+}
